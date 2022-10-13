@@ -8,6 +8,7 @@ Each zipped folder contains the trained models
 3. load them using:
 
 from tensorflow import keras
+
 model = keras.models.load_model('path/to/directory')
 
 4. Make predictions as thus:
