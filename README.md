@@ -10,5 +10,4 @@ Each zipped folder contains the trained models
 from tensorflow import keras
 
 model = keras.models.load_model('path/to/directory')
-
-4. Make predictions as thus:
+model.summary
