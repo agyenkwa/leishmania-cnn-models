@@ -5,9 +5,9 @@ Each zipped folder contains the trained models
 
 1. Download the zipped folders 
 2. Unzip into a directory
-3. load them using:
+3. load them using a script in that same directory:
 
 from tensorflow import keras
 
-model = keras.models.load_model('path/to/directory')
+model = keras.models.load_model('Unzipped folder name')
 model.summary
