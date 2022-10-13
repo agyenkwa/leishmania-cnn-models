@@ -10,4 +10,5 @@ Each zipped folder contains the trained models
 from tensorflow import keras
 
 model = keras.models.load_model('Unzipped folder name')
+
 model.summary
