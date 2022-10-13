@@ -122,7 +122,7 @@ history = model.fit(train_aug.flow(X_train, y_train, batch_size=32),
                     steps_per_epoch=len(X_train) / 32,
                     epochs=15)
 
-model.save('VGG16_Two class1')
+model.save('VGG16_Two class')
 
 
 y_pred = model.predict(X_test, batch_size=batch_size)
